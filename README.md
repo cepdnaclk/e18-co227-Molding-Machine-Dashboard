@@ -1,5 +1,5 @@
 ___
-# DELETE THIS INSTRUCTIONS AND ADD A SHORT INTRODUCTION ABOUT YOUR PROJECT
+# Molding Machine Dashboard Software Project
 ___
 
 ## Please refer the instructions in below URL:
