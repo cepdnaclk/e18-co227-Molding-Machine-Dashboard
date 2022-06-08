@@ -10,20 +10,22 @@ title: Molding Machine Dashboard
 # Molding Machine Dashboard
 
 ## Team
--  E/18/022 Amarasinghe D. I. [email](mailto:e18022@eng.pdn.ac.lk)
--  E/18/154 Jayasumana C. H. [email](mailto:e18154@eng.pdn.ac.lk)
--  E/18/349 Thalisha W. G. A. P. [email](mailto:e18349@eng.pdn.ac.lk)
+-  E/18/022 Amarasinghe D.I. [email](mailto:e18022@eng.pdn.ac.lk)
+-  E/18/154 Jayasumana C.H. [email](mailto:e18154@eng.pdn.ac.lk)
+-  E/18/349 Thalisha W.G.A.P. [email](mailto:e18349@eng.pdn.ac.lk)
 
 ## Table of Contents
-1. [Problem Overview](#Problem-Overview)
-2. [Existing System](#Existing-System)
-2. [Proposed Solution](#Proposed-Solution)
-3. [Links](#links)
+1. [Introduction](#Introduction)
+2. [Problem Overview](#Problem-Overview)
+3. [Existing System](#Existing-System)
+4. [Proposed Solution](#Proposed-Solution)
+5. [Links](#links)
 
 ---
+## Introduction
+This project is about building a molding machine dashboard to graphically view the information in summary of number of machines in a factory setting
 
 ## Problem Overview
-
 
 
 ## Existing System
