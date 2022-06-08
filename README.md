@@ -22,18 +22,18 @@ This is a sample image, to show how to add images to your page. To learn more op
 -  E/18/349 Thalisha W. G. A. P. [email](mailto:e18349@eng.pdn.ac.lk)
 
 ## Table of Contents
-1. [Problem Overview](#introduction)
-2. [Existing System](#other-sub-topics)
+1. [Problem Overview](#Problem Overview)
+2. [Existing System](#Existing System)
 2. [Proposed Solution](#other-sub-topics)
 3. [Links](#links)
 
 ---
 
-## Introduction
+## Problem Overview
 
- description of the real world problem and solution, impact
 
-## Other Sub Topics
+
+## Existing System
 
 .....
 
