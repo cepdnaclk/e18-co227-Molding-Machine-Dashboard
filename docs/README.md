@@ -3,13 +3,13 @@ layout: home
 permalink: index.html
 
 # Please update this with your repository name and title
-repository-name: eYY-XXX-project-template
-title:
+repository-name: e18-co227-Molding-Machine-Dashboard
+title: Molding Machine Dashboard
 ---
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
 
-# Project Title
+# Molding Machine Dashboard
 
 ---
 
@@ -19,9 +19,9 @@ This is a sample image, to show how to add images to your page. To learn more op
 
 
 ## Team
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
+-  E/18/022, Amarasinghe D.I., [email](mailto:e18022@eng.pdn.ac.lk)
+-  E/18/154, Jayasumana C.H., [email](mailto:e18154@eng.pdn.ac.lk)
+-  E/18/349, Thalisha W.G.A.P., [email](mailto:e18349@eng.pdn.ac.lk)
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -32,7 +32,7 @@ This is a sample image, to show how to add images to your page. To learn more op
 
 ## Introduction
 
- description of the real world problem and solution, impact
+This project is about developing a dashboard to graphically view the information in summary of number of molding machines in a factory setting.
 
 ## Other Sub Topics
 
