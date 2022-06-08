@@ -4,17 +4,10 @@ permalink: index.html
 
 # Please update this with your repository name and title
 repository-name: e18-co227-Molding-Machine-Dashboard
-title: Moling Machine Dashboard
+title: Molding Machine Dashboard
 ---
-
-# Moling Machine Dashboard
-
 ---
-
-This is a sample image, to show how to add images to your page. To learn more options, please refer [this](https://projects.ce.pdn.ac.lk/docs/faq/how-to-add-an-image/)
-
-![Sample Image](./images/sample.png)
-
+# Molding Machine Dashboard
 
 ## Team
 -  E/18/022 Amarasinghe D. I. [email](mailto:e18022@eng.pdn.ac.lk)
