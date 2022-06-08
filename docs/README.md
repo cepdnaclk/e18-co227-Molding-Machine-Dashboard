@@ -4,10 +4,10 @@ permalink: index.html
 
 # Please update this with your repository name and title
 repository-name: e18-co227-Molding-Machine-Dashboard
-title: Moling Machine Dashboard
+title: Molding Machine Dashboard
 ---
 ---
-# Moling Machine Dashboard
+# Molding Machine Dashboard
 
 ## Team
 -  E/18/022 Amarasinghe D. I. [email](mailto:e18022@eng.pdn.ac.lk)
