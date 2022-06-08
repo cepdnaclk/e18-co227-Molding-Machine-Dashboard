@@ -24,7 +24,7 @@ This is a sample image, to show how to add images to your page. To learn more op
 ## Table of Contents
 1. [Problem Overview](#Problem-Overview)
 2. [Existing System](#Existing-System)
-2. [Proposed Solution](#other-sub-topics)
+2. [Proposed Solution](#Proposed-Solution)
 3. [Links](#links)
 
 ---
@@ -35,12 +35,15 @@ This is a sample image, to show how to add images to your page. To learn more op
 
 ## Existing System
 
+
+## Proposed Solution
+
 .....
 
 ## Links
 
 - [Project Repository](https://github.com/cepdnaclk/e18-co227-Molding-Machine-Dashboard)
-- [Project Page](https://cepdnaclk.github.io/{{ page.repository-name}}){:target="_blank"}
+- [Project Page](https://cepdnaclk.github.io/{{ page.repository-name}})
 - [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
 - [University of Peradeniya](https://eng.pdn.ac.lk/)
 
