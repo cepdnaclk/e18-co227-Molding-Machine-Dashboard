@@ -35,7 +35,7 @@ title: Molding Machine Dashboard
 ## Links
 
 - [Project Repository](https://github.com/cepdnaclk/e18-co227-Molding-Machine-Dashboard)
-- [Project Page](https://cepdnaclk.github.io/{{ page.repository-name}})
+- [Project Page](https://cepdnaclk.github.io/e18-co227-Molding-Machine-Dashboard/)
 - [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
 - [University of Peradeniya](https://eng.pdn.ac.lk/)
 
