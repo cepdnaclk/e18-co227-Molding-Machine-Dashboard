@@ -6,9 +6,8 @@ permalink: index.html
 repository-name: e18-co227-Molding-Machine-Dashboard
 title: Molding Machine Dashboard
 ---
----
 # Molding Machine Dashboard
-
+---
 ## Team
 -  E/18/022 Amarasinghe D. I. [email](mailto:e18022@eng.pdn.ac.lk)
 -  E/18/154 Jayasumana C. H. [email](mailto:e18154@eng.pdn.ac.lk)
