@@ -23,10 +23,10 @@ title: Molding Machine Dashboard
 
 ---
 ## Introduction
-This project is about building a molding machine dashboard to graphically view the information in summary of number of machines in a factory setting
+This project is about building a molding machine dashboard to graphically view the information in summary of the machines in a factory. 
 
 ## Problem Overview
-
+The injection molding manufacturing process is used for producing parts by injecting molten material into a mold.In our specific use case, we focus on plastic injection molding.One of the common problems in this process is when plastic residue gets stuck or left behind in the mold.Thus leading to damages to the mold , defects in products and ultimately resulting in unwanted business costs.
 
 ## Existing System
 
