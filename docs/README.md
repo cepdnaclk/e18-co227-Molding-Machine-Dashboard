@@ -49,7 +49,7 @@ As the next section of the solving the problem, a dashboard to centrally view al
 The Dashboard will have several key interfaces; an overview page of all the machines that listed all the machines as cards, statistical data view page for each machine which contains graphs and numeric data that shows identified defects, mold information that are used in the machines.
 
 ### Some features of the dashboard
-<p align="center"> <img src = "images/features.png" width="600"> </p>
+<p align="center"> <img src = "images/features1.png" width="700"> </p>
 
 ### Technology Stack
 
