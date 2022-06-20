@@ -15,10 +15,10 @@ title: Molding Machine Dashboard
 -  E/18/349 Thalisha W.G.A.P. [email](mailto:e18349@eng.pdn.ac.lk)
 
 ## Table of Contents
-1. [Introduction](#Introduction)
-2. [Problem Overview](#Problem-Overview)
-3. [Existing System](#Existing-System)
-4. [Proposed Solution](#Proposed-Solution)
+1. [Introduction](#introduction)
+2. [Problem Overview](#problem-overview)
+3. [Existing System](#existing-system)
+4. [Proposed Solution](#proposed-solution)
 5. [Links](#links)
 
 ---
@@ -49,8 +49,9 @@ As the next section of the solving the problem, a dashboard to centrally view al
 The Dashboard will have several key interfaces; an overview page of all the machines that listed all the machines as cards, statistical data view page for each machine which contains graphs and numeric data that shows identified defects, mold information that are used in the machines.
 
 ### Some features of the dashboard
+<p align="center"> <img src = "images/features.png" width="600"> </p>
 
-
+### Technology Stack
 
 ## Links
 
