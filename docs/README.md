@@ -54,6 +54,8 @@ The Dashboard will have several key interfaces; an overview page of all the mach
 ### Technology Stack
 <p align="center"> <img src = "images/tech_stack1.png" width="580"> </p>
 
+---
+
 ## Links
 
 - [Project Repository](https://github.com/cepdnaclk/e18-co227-Molding-Machine-Dashboard)
