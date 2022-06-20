@@ -52,6 +52,7 @@ The Dashboard will have several key interfaces; an overview page of all the mach
 <p align="center"> <img src = "images/features1.png" width="700"> </p>
 
 ### Technology Stack
+<p align="center"> <img src = "images/tech_stack.png" width="580"> </p>
 
 ## Links
 
