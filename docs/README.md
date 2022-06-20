@@ -27,6 +27,7 @@ This project is about building a molding machine dashboard to graphically view t
 
 ## Problem Overview
 The injection molding manufacturing process is used for producing parts by injecting molten material into a mold.In our specific use case, we focus on plastic injection molding.One of the common problems in this process is when plastic residue gets stuck or left behind in the mold.Thus leading to damages to the mold , defects in products and ultimately resulting in unwanted business costs.
+<img src = "images/injection_moulding_process.gif" width="500">
 
 ## Existing System
 
