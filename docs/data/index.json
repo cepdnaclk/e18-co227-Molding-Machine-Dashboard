@@ -1,9 +1,9 @@
 {
     "team": [
         {
-            "name": "Amarasinghe D. I.",
-            "email": "e18022@eng.pdn.ac.lk",
-            "eNumber": "E/18/022"
+            "name": "Thalisha W. G. A. P.",
+            "email": "e18349@eng.pdn.ac.lk",
+            "eNumber": "E/18/349"
         },
         {
             "name": "Jayasumana C. H.",
@@ -11,9 +11,9 @@
             "eNumber": "E/18/154"
         },
         {
-            "name": "Thalisha W. G. A. P.",
-            "email": "e18349@eng.pdn.ac.lk",
-            "eNumber": "E/18/349"
+            "name": "Amarasinghe D. I.",
+            "email": "e18022@eng.pdn.ac.lk",
+            "eNumber": "E/18/022"            
         }
     ],
     "supervisors": [
