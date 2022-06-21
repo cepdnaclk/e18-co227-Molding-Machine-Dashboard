@@ -10,11 +10,12 @@
             "email": "e18154@eng.pdn.ac.lk",
             "eNumber": "E/18/154"
         },
-        {
+        <!---{
             "name": "Thalisha W. G. A. P.",
             "email": "e18349@eng.pdn.ac.lk",
             "eNumber": "E/18/349"
         }
+-->
     ],
     "supervisors": [
         {
