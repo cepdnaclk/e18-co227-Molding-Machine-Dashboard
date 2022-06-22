@@ -58,11 +58,10 @@ The Dashboard will have several key interfaces; an overview page of all the mach
 
 ## Links
 
-- [Project Repository](https://github.com/cepdnaclk/e18-co227-Molding-Machine-Dashboard)
-- [Project Page](https://cepdnaclk.github.io/e18-co227-Molding-Machine-Dashboard/)
-- [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
-- [University of Peradeniya](https://eng.pdn.ac.lk/)
-
+- <a href="https://github.com/cepdnaclk/e18-co227-Molding-Machine-Dashboard" target="_blank">Project Repository</a>
+- <a href="https://cepdnaclk.github.io/e18-co227-Molding-Machine-Dashboard/" target="_blank">Project Page</a>
+- <a href="http://www.ce.pdn.ac.lk/" target="_blank">Department of Computer Engineering</a>
+- <a href="https://eng.pdn.ac.lk/" target="_blank">University of Peradeniya</a>
 
 [//]: # (Please refer this to learn more about Markdown syntax)
 [//]: # (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
