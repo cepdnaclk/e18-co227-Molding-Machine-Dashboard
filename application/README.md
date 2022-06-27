@@ -3,12 +3,15 @@
 ## Available Scripts
 
 First, You have to create a project directory
-
 ### `npx create-react-app my-app`
 ### `cd my-app`
 
-In the project directory, you can run:
+You must install "react-router-dom" library
+### `npm i react-router-dom`
 
+Then replace your "src" folder with this folder.
+
+In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
