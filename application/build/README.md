@@ -18,4 +18,6 @@ Serve the project with npx server:
 
 This will serve your static site on the port 3000
 
+---
+
 [Learn more](https://create-react-app.dev/docs/deployment/) for more information.
