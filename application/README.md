@@ -9,6 +9,7 @@ First, You have to create a project directory
 You must install following libraries:
 ### `npm i react-router-dom`
 ### `npm i react-icons`
+### `npm i @material-ui/core`
 
 Then replace your "src" folder with this folder.
 
@@ -33,3 +34,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+---
+If you got any errors while installing libraries, check [here](https://exerror.com/npm-err-could-not-resolve-dependency-npm-err-peer-react16-8-0-17-0-0-from-material-ui-core4-12-3/).
