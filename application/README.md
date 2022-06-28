@@ -6,8 +6,9 @@ First, You have to create a project directory
 ### `npx create-react-app my-app`
 ### `cd my-app`
 
-You must install "react-router-dom" library
+You must install following libraries:
 ### `npm i react-router-dom`
+### `npm i react-icons`
 
 Then replace your "src" folder with this folder.
 
