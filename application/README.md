@@ -11,7 +11,7 @@ You must install following libraries:
 ### `npm i react-icons`
 ### `npm i @material-ui/core`
 
-Then replace your "src" folder with this folder.
+Then replace your "src" directory with this directory.
 
 In the project directory, you can run:
 ### `npm start`
