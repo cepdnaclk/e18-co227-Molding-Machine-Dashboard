@@ -24,10 +24,34 @@ accordingly.
 - npm install
 - nodemon start (starts running on 'localhost:3001')
 
+## Setting up mysql-server on windows
+
+---
+
+### XAMPP MySQL server
+
+- Download and install XAMPP
+- Start MySQL server from XAMPP control panel
+
+### Running mysql script file
+
+- Open Shell from XAMPP control panel
+- Enter "mysql -u root -p" (Enter default password null) or login with any other user
+
+### Running mysql script file
+
+- source full/path/to/file/analysis_tool.sql
+
+(No need to create .env file if you didn't change root user's password)
+
+---
+
 ### Setting up webapp
 
 - npm install
 - npm start (starts running on 'localhost:3000')
+
+---
 
 ## API Endpoints
 
