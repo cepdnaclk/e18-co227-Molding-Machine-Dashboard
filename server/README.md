@@ -24,9 +24,9 @@ accordingly.
 - npm install
 - nodemon start (starts running on 'localhost:3001')
 
-## Setting up mysql-server on windows
-
 ---
+
+## Setting up mysql-server on windows
 
 ### XAMPP MySQL server
 
