@@ -1,13 +1,17 @@
 import {Link, useMatch, useResolvedPath} from 'react-router-dom';
+import { AiFillDatabase } from "react-icons/ai";
+import { SiReactos } from "react-icons/si";
+import { MdSpaceDashboard } from "react-icons/md";
 
 function SideBar () {
     return (
-        <nav className='side-bar'>
+        <div className='sidebar'>
+            <header><SiReactos /> Company Name</header>
             <ul>
-                <ActivePageLink to= "/">Dashboard</ActivePageLink>
-                <ActivePageLink to= "/Molds">Production Data</ActivePageLink>
+                <ActivePageLink to= "/"><MdSpaceDashboard /> Dashboard</ActivePageLink>
+                <ActivePageLink to= "/Molds"><AiFillDatabase /> Production Data</ActivePageLink>
             </ul>
-        </nav>
+        </div>
     );
 }
 

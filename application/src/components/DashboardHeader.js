@@ -1,20 +1,15 @@
 import React from 'react';
-import logo from '../logo.svg';
 import { useLocation } from 'react-router-dom';
 
 function DashboardHeader() {
     return (
-        <header className='page-header'>
-            <div className='header-logo'>
-                <img src= {logo} className='logo' alt='Company logo'></img>
-                <p>Company Name</p>
-            </div>
-
-            <div className='header-items'>
+        <nav  className="header">
+            <div>
                 <ChangePageName />
             </div>
 
-        </header>
+        </nav>
+
     );
 }
 
@@ -28,6 +23,9 @@ function ChangePageName() {
     }
     else if(currentPath === "/Molds") {
         pageText = "Molds Overview"
+    }
+    else if(currentPath === "/machines") {
+        pageText = "Machine No"
     }
     else {
         pageText = "Machine"
