@@ -15,8 +15,7 @@ function DashboardHeader() {
 
 function ChangePageName() {
     const currentPath = useLocation().pathname
-    const data = useLocation().state;
-    // console.log(currentPath)
+    console.log(currentPath)
     let pageText
 
     if (currentPath === "/") {
@@ -28,9 +27,8 @@ function ChangePageName() {
     else if(currentPath === "/machines") {
         pageText = "Machine No"
     }
-    else if(currentPath === "/Machine"){
-        const machineId = data.id;
-        pageText = "Machine " + machineId
+    else {
+        pageText = "Machine"
     }
 
     return(
