@@ -17,7 +17,7 @@ function App() {
       <LayoutManager/>
 
       <Routes>
-      <Route path='/' element={<LoginPage/>}/>
+        <Route path='/' element={<LoginPage/>}/>
         <Route path='/Home' element={<HomePage />} />
         <Route path='/Molds' element={<MoldsPage />} />
         <Route path='/Machine' element={<MachineData />} />
@@ -32,8 +32,7 @@ export default App;
 
 function LayoutManager(){
   const currentPath = useLocation().pathname
-
-  if (currentPath == '/'){
+  if (currentPath === '/'){
     return <div><LoginHeader/></div>
   }
   else{
