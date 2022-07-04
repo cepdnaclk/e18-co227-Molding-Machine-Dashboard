@@ -12,7 +12,7 @@ function MoldsPage() {
                 <tr>
                     <td className='myTd'>Mold ID:</td>
                     <td className='myTd'></td>
-                    <td className='myTd'>material:</td>
+                    <td className='myTd'>Material:</td>
                     <td className='myTd'></td>
                 </tr>
                 <tr>
