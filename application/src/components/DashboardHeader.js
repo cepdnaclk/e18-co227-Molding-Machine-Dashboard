@@ -19,6 +19,9 @@ function ChangePageName() {
     let pageText
 
     if (currentPath === "/") {
+        pageText = "Login"
+    }
+    else if (currentPath === "/Home") {
         pageText = "Machines Overview"
     }
     else if(currentPath === "/Molds") {
