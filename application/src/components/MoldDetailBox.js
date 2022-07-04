@@ -1,46 +1,22 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import Boxes from '@material-ui/core/Box';
 
-function MoldDetailBox(props) {
-
-    const moldId = props.ID
-    const [molds, setMolds] = useState([])
-
-    useEffect(() => {
-        if(moldId !== undefined) {
-            fetch('http://localhost:3001/api/molds/' + moldId)
-            .then(results => {
-                return results.json()
-            })
-            .then(jsonData => {
-                setMolds(jsonData) 
-            });
-        }
-    }, [moldId]);
-
-    // Assign data from database
-    let material, MONAno, moldMaker;
-    molds.map(mo => {
-        material = mo.material
-        MONAno = mo.monaNumber
-        moldMaker = mo.moldMaker
-    });
-
+function MoldDetailBox() {
     return ( 
         <Boxes className='detail-box2'>
             <table className='data-table'>
                 <tbody>
                     <tr>
                         <td>Mold ID:</td>
-                        <td>{moldId}</td>
+                        <td></td>
                         <td>material:</td>
-                        <td>{material}</td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>MONA No:</td>
-                        <td>{MONAno}</td>
+                        <td></td>
                         <td>Mold Maker:</td>
-                        <td>{moldMaker}</td>
+                        <td></td>
                     </tr>
                 </tbody>
             </table>

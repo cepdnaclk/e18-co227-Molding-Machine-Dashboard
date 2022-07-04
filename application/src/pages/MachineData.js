@@ -9,11 +9,11 @@ function MachineData() {
     return (
         <div className="machine-data-container">
             <div className='two-grid'>
-                <DataBox ID = {machineId} />
+                <DataBox />
                 <GraphBox />
             </div>
-            <MachineDetailBox ID = {machineId} />
-            <MoldDetailBox ID = {moldId} />
+            <MachineDetailBox />
+            <MoldDetailBox />
         </div>
     )
 }
