@@ -4,7 +4,7 @@ import Boxes from '@material-ui/core/Box';
 function GraphBox() {
     return ( 
         <div>
-            <Boxes className='mold-box'>
+            <Boxes className='machine-databox2'>
             </Boxes>
         </div>
     );

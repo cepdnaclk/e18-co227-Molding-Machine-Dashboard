@@ -27,20 +27,20 @@ function MoldDetailBox(props) {
     });
 
     return ( 
-        <Boxes className='detail-box2'>
-            <table className='data-table'>
+        <Boxes className='machine-box4'>
+            <table className='machine-data-table'>
                 <tbody>
                     <tr>
                         <td>Mold ID:</td>
-                        <td>{moldId}</td>
-                        <td>material:</td>
-                        <td>{material}</td>
+                        <td><Boxes className='machine-databox4'>{moldId}</Boxes></td>
+                        <td>Material:</td>
+                        <td><Boxes className='machine-databox4'>{material}</Boxes></td>
                     </tr>
                     <tr>
                         <td>MONA No:</td>
-                        <td>{MONAno}</td>
+                        <td><Boxes className='machine-databox4'>{MONAno}</Boxes></td>
                         <td>Mold Maker:</td>
-                        <td>{moldMaker}</td>
+                        <td><Boxes className='machine-databox4'>{moldMaker}</Boxes></td>
                     </tr>
                 </tbody>
             </table>

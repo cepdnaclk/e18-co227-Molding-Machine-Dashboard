@@ -30,7 +30,7 @@ function MachineData(props) {
     
     return (
         <div className="machine-data-container">
-            <div className='two-grid'>
+            <div className='machineData-two-grid'>
                 <DataBox ID = {machineId} />
                 <GraphBox />
             </div>
