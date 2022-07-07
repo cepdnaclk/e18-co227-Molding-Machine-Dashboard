@@ -1,7 +1,9 @@
 import React from 'react';
 import {useEffect, useState} from 'react';
 import Boxes from '@material-ui/core/Box';
+import { BsPlusLg } from "react-icons/bs";
 import {Link} from 'react-router-dom';
+
 
 function Homepage() {
 
@@ -34,7 +36,17 @@ function Homepage() {
     // 'state' in Link tag sends machine ID to the page that linked
 
     return (
-        <div className="machine-container"> {machineList} </div>
+        <div className="machine-container"> 
+            {machineList} 
+            <Link to='/AddMachine'>
+            <Boxes className='machine-add-box'>
+                <div>
+                    <BsPlusLg className='machine-plus-icon'/>
+                </div>
+            </Boxes>
+            </Link>
+        </div>
+        
     )
 
 }
