@@ -196,7 +196,8 @@ body {
 /* ----------------machine box 1----------------- */
 .machine-databox1{
   background-color: #417186;
-  width: 600px;
+  width: 97%;
+  /* width: 600px; */
   height: 250px;
   border-radius: 10px;
   transition: .4s;
@@ -233,7 +234,7 @@ body {
 /* same as machine-databox1 */
 .machine-databox2{
   background-color: #417186;
-  width: 600px;
+  width: 97%;
   height: 250px;
   border-radius: 10px;
   transition: .4s;
