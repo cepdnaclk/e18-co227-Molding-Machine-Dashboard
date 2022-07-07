@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react';
 import Boxes from '@material-ui/core/Box';
-import moment from 'moment';
 import { PieChart } from "react-minimal-pie-chart";
 import { Grid } from "@material-ui/core/";
 
