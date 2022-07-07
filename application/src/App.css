@@ -159,9 +159,9 @@ body {
 .machine-data-container{
   display: grid;
   position: flex;
-  padding-left: 270px;
+  padding-left: 260px;
   padding-top: 90px;
-  padding-right: 10px;
+  padding-right: 0px;
   padding-bottom: 20px;
   top: 73px;
   gap: 3%;
@@ -186,17 +186,15 @@ body {
   /* background-color: #031a25; */
 }
 
-.machineData-two-grid {
-  display: grid;
-  position: flex;
-  grid-template-columns: 1fr 1fr;
+.machine-data-page-table tr td {
+  width: 500px;
+  padding: 0.3%;
 }
 
 
 /* ----------------machine box 1----------------- */
 .machine-databox1{
   background-color: #417186;
-  width: 600px;
   height: 250px;
   border-radius: 10px;
   transition: .4s;
@@ -207,7 +205,7 @@ body {
   background-color: #28617a;
   border-radius: 10px;
   text-align: center;
-  width: 100px;
+  width: auto;
   padding: 10px 5px;
   font-weight: normal;
   font-size: 1.2rem;
@@ -217,10 +215,17 @@ body {
   background-color: #28617a;
   border-radius: 10px;
   text-align: center;
-  width: 150px;
+  width: auto;
+  min-width: 60px;
   padding: 10px 5px;
   font-weight: normal;
   font-size: 1.2rem;
+}
+
+.label-text {
+  width: auto;
+  text-align: left;
+  min-width: 100px;
 }
 
 /* --------------------------------------- */
@@ -233,7 +238,7 @@ body {
 /* same as machine-databox1 */
 .machine-databox2{
   background-color: #417186;
-  width: 600px;
+  width: 500px;
   height: 250px;
   border-radius: 10px;
   transition: .4s;
@@ -283,11 +288,17 @@ body {
 .machine-databox4{
   background-color: #28617a;
   border-radius: 10px;
-  text-align: left;
-  width: 300px;
+  text-align: center;
+  width: auto;
   padding: 10px 5px;
   font-weight: normal;
   font-size: 1.2rem;
+}
+
+.label-text-2 {
+  width: auto;
+  text-align: left;
+  min-width: 120px;
 }
 
 /* --------------------------------------- */
@@ -321,7 +332,9 @@ body {
 
 .mold-box{
   background-color: #417186;
-  width: 600px;
+  /* width: 600px; */
+  width: 97%;
+  min-width: 350px;
   height: 250px;
   border-radius: 10px;
   text-align: left;
@@ -370,7 +383,8 @@ body {
   background-color: #28617a;
   border-radius: 10px;
   text-align: center;
-  width: 200px;
+  width: auto;
+  min-width: 100px;
   margin: 5px;
   font-weight: normal;
   font-size: 1.2rem;
@@ -381,7 +395,8 @@ body {
   background-color: #28617a;
   border-radius: 10px;
   text-align: center;
-  width: 100px;
+  width: auto;
+  min-width: 100px;
   margin: 5px;
   font-weight: normal;
   font-size: 1.2rem;
