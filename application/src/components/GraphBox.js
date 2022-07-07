@@ -1,7 +1,12 @@
 import React, {useEffect, useState} from 'react';
 import Boxes from '@material-ui/core/Box';
+<<<<<<< Updated upstream
 import { PieChart } from "react-minimal-pie-chart";
 import { Grid } from "@material-ui/core/";
+=======
+import moment from 'moment';
+import { PieChart } from "react-minimal-pie-chart";
+>>>>>>> Stashed changes
 
 function GraphBox(props) {
     // Assign machine ID
