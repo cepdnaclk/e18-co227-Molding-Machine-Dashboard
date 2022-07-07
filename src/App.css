@@ -427,6 +427,8 @@ body {
 }
 
 .mold-box-icon{
+  height: 25px;
+  width: 25px;
   filter: drop-shadow(1px 3px 2px #063146);
 }
 
