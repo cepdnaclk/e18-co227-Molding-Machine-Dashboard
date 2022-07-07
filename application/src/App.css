@@ -371,7 +371,7 @@ body {
 
 .mold-box{
   background-color: #417186;
-  width: 600px;
+  width: 97%;
   height: 250px;
   border-radius: 10px;
   text-align: left;
@@ -404,6 +404,7 @@ body {
   font-size: 1.25rem;
   color: #ffffff;
   font-weight: bold;
+  padding-right: 10px;
   /* text-shadow: #031a25; */
   
 }
@@ -412,7 +413,6 @@ body {
   width: auto;
   height: 75px;
   text-align: right;
-  
 }
 
 .mold-box-data{
@@ -420,7 +420,8 @@ body {
   background-color: #28617a;
   border-radius: 10px;
   text-align: center;
-  width: 200px;
+  width: auto;
+  min-width: 100px;
   margin: 5px;
   font-weight: normal;
   font-size: 1.2rem;
@@ -431,7 +432,8 @@ body {
   background-color: #28617a;
   border-radius: 10px;
   text-align: center;
-  width: 100px;
+  width: auto;
+  min-width: 100px;
   margin: 5px;
   font-weight: normal;
   font-size: 1.2rem;
@@ -511,6 +513,7 @@ body {
   width: 100%;
   font-size: 14px;
   padding: 12px;
+  margin-top: 20px;
   border-radius: 4px;
 }
 
