@@ -91,6 +91,7 @@ body {
   padding-left: 270px;
   padding-top: 90px;
   padding-right: 10px;
+  padding-bottom: 20px;
   top: 73px;
   gap: 30px;
   grid-template-columns:repeat(auto-fill,minmax(150px,1fr));
@@ -228,6 +229,63 @@ body {
 
 
 
+/* ############################### New Machine Page ####################### */
+
+.new-machine-container{
+  /* display: grid; */
+  position: flex;
+  padding-left: 270px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 50px;
+  /* row-gap: 30px; */
+  /* grid-template-columns: repeat(auto-fill,minmax(500px,1fr)); */
+  /* background-color: red; */
+}
+
+.new-machine-box{
+  background-color: #417186;
+  width: 98.7%;
+  height: 450px;
+  border-radius: 10px;
+  transition: .4s;
+  box-shadow: 0px 0px 4px #063146;
+  font-weight: bold;
+  color: #fff;
+  padding: 20px;
+}
+
+.new-machine-box input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #063146;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgba(245, 240, 232, 0.79);
+  outline: none;
+  
+}
+
+.new-machine-box input[type=submit] {
+  width: 50%;
+  background-color: #29ab9c;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.add-btn-div{
+  text-align: center;
+}
+
+
+
 
 /* ############################### Machine Page ####################### */
 
@@ -261,32 +319,28 @@ body {
   /* background-color: #031a25; */
 }
 
-.machine-data-page-table td {
-  padding: 0.5%;
-  padding-left: 0;
-  padding-right: 0;
+.machineData-two-grid {
+  display: grid;
+  position: flex;
+  grid-template-columns: 1fr 1fr;
 }
 
 
 /* ----------------machine box 1----------------- */
 .machine-databox1{
   background-color: #417186;
-  width: 97%;
-  min-width: 250px;
+  width: 600px;
   height: 250px;
   border-radius: 10px;
   transition: .4s;
   box-shadow: 0px 0px 4px #063146;
-  align-items: center;
-  color: #fff;
 }
 
 .machine-box1-numbers{
   background-color: #28617a;
   border-radius: 10px;
   text-align: center;
-  width: auto;
-  min-width: 50px;
+  width: 100px;
   padding: 10px 5px;
   font-weight: normal;
   font-size: 1.2rem;
@@ -296,21 +350,10 @@ body {
   background-color: #28617a;
   border-radius: 10px;
   text-align: center;
-  width: auto;
-  min-width: 80px;
+  width: 150px;
   padding: 10px 5px;
   font-weight: normal;
   font-size: 1.2rem;
-}
-
-.label-text {
-  width: auto;
-  min-width: 120px;
-}
-
-
-.machine-databox1 ul {
-  padding-top: 10px;
 }
 
 /* --------------------------------------- */
@@ -405,6 +448,7 @@ body {
   position: flex;
   padding-left: 270px;
   padding-top: 100px;
+  padding-bottom: 20px;
   row-gap: 30px;
   grid-template-columns: repeat(auto-fill,minmax(500px,1fr));
 }
@@ -417,7 +461,7 @@ body {
 
 .mold-box{
   background-color: #417186;
-  width: 97%;
+  width: 600px;
   height: 250px;
   border-radius: 10px;
   text-align: left;
@@ -442,6 +486,8 @@ body {
 }
 
 .mold-box-icon{
+  height: 25px;
+  width: 25px;
   filter: drop-shadow(1px 3px 2px #063146);
 }
 
@@ -454,7 +500,6 @@ body {
   font-size: 1.25rem;
   color: #ffffff;
   font-weight: bold;
-  padding-right: 10px;
   /* text-shadow: #031a25; */
   
 }
@@ -463,6 +508,7 @@ body {
   width: auto;
   height: 75px;
   text-align: right;
+  
 }
 
 .mold-box-data{
@@ -470,8 +516,7 @@ body {
   background-color: #28617a;
   border-radius: 10px;
   text-align: center;
-  width: auto;
-  min-width: 100px;
+  width: 200px;
   margin: 5px;
   font-weight: normal;
   font-size: 1.2rem;
@@ -482,8 +527,7 @@ body {
   background-color: #28617a;
   border-radius: 10px;
   text-align: center;
-  width: auto;
-  min-width: 100px;
+  width: 100px;
   margin: 5px;
   font-weight: normal;
   font-size: 1.2rem;
@@ -563,7 +607,6 @@ body {
   width: 100%;
   font-size: 14px;
   padding: 12px;
-  margin-top: 20px;
   border-radius: 4px;
 }
 
