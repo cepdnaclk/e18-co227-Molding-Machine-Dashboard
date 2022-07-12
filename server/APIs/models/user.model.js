@@ -48,7 +48,8 @@ User.login = async (user) => {
         const result = await sql.query(`SELECT * FROM passwords JOIN employees ON passwords.empID = employees.empID WHERE passwords.empID = '${user.empID}'`);
         return result[0];
     } else {
-        throw new Error("User does not exist");
+        // throw new Error("User does not exist");
+        return 0;
     }
 }
 
