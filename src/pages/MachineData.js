@@ -42,6 +42,9 @@ function MachineData(props) {
                     <tr>
                         <td colSpan={2}><MoldDetailBox ID = {moldId} /></td>
                     </tr>
+                    <tr>
+                        <ReportButton ID={machineId}/>
+                    </tr>
                 </tbody>
             </table>
         </div>
