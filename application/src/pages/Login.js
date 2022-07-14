@@ -27,7 +27,7 @@ const Login = () => {
     useEffect(() => {
         setErrMsg('');
     }, [user, pwd]);
-
+    
     const handleSubmit = async (e) => {
         e.preventDefault();
 
