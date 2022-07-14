@@ -60,3 +60,4 @@ INSERT INTO machines VALUES('D01','m002',50,3,1,'2022-02-09','2022-03-19'),
 
 -- add username and password to password
 INSERT INTO passwords VALUES('1234X', '123');
+INSERT INTO passwords VALUES('9876X', '456');
