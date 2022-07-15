@@ -4,6 +4,7 @@ import DataBox from '../components/DataBox';
 import GraphBox from '../components/GraphBox';
 import MachineDetailBox from '../components/MachineDetailBox';
 import MoldDetailBox from '../components/MoldDetailBox';
+import ReportButton from '../components/ReportButton';
 import axios from '../auth/axios';
 
 const ADD_MACHINE_URL = '/api/machines/';
@@ -80,8 +81,8 @@ function MachineData(props) {
                     </tr>
                 </tbody>
             </table>
-
-            <button className='add-btn-div' onClick={handleRemove}>remove</button> 
+            <div><ReportButton ID={machineId}/></div>
+            <button className='add-btn-div' onClick={handleRemove}>Remove Machine</button> 
         </div>
     )
 }

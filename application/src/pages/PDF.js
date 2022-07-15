@@ -26,7 +26,9 @@ const PDF = (props) =>{
             <div className="company-header"><SiReactos /> Company Name</div>
             <div className="report-header">Machine Statistics Report</div>
             <div className="date">Generated for:{date} </div>
-            <div className="report-sub-header">Machine Details</div>
+            <div className="machine-id">Machine ID : {MachineID}</div>
+            <div className="report-sub-header">Machine Details </div>
+            
             <div>
                 <table className='report-data-table'>
                 <tbody>

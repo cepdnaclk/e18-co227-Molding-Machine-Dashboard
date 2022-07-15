@@ -8,6 +8,7 @@ import Data from './pages/Data';
 import Login from './pages/Login';
 import MachineData from './pages/MachineData';
 import AddMachine from './pages/AddMachine';
+import Report from './pages/PDF';
 import RequireAuth from './auth/RequireAuth';
 import {Routes, Route} from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
@@ -27,6 +28,7 @@ function App() {
         <Route path='/Machine' element={<MachineData />} />
         <Route path='/Data' element={<Data />} />
         <Route path='/AddMachine' element={<AddMachine />} />
+        <Route path='/Report' element={<Report/>}/>
       </Route>
       </Routes>
 
@@ -40,6 +42,9 @@ function LayoutManager(){
   const currentPath = useLocation().pathname
   if (currentPath === '/'){
     return <div><LoginHeader/></div>
+  }
+  else if (currentPath === '/Report'){
+    return <div></div>
   }
   else{
     return (

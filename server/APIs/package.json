@@ -20,6 +20,7 @@
   "homepage": "https://github.com/cepdnaclk/e17-co328-Analysis-Tool-for-Industrial-Images#readme",
   "dependencies": {
     "@hapi/joi": "^17.1.1",
+    "axios": "^0.27.2",
     "bcrypt": "^5.0.1",
     "body-parser": "^1.19.2",
     "cors": "^2.8.5",
