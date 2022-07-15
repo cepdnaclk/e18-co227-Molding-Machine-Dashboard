@@ -76,7 +76,7 @@ function ReportButton(props){
     };
 
     return(
-        <button onClick={navigateToReport} className='report-btn'> Generate report</button>
+        <button onClick={navigateToReport} className='add-btn-div'> Generate Report</button>
     )
 }
 
