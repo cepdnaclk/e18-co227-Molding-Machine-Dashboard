@@ -33,6 +33,7 @@ body {
     /* background: #042331; */
     background: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(20px);
+    z-index: 10;
 }
 
 .sidebar header{
@@ -45,6 +46,7 @@ body {
     /* background: #063146; */
     background: rgba(255, 255, 255, 0.3);
     user-select: none;
+    z-index: 10;
     
 }
 
@@ -89,6 +91,7 @@ body {
   width: 100%;
   margin-left: 250px;
   font-size: 2rem;
+  z-index: 10;
 }
 
 .header ul {
@@ -267,7 +270,7 @@ body {
   /* display: grid; */
   position: flex;
   padding-left: 270px;
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 100px;
   padding-right: 50px;
   /* row-gap: 30px; */
@@ -346,6 +349,66 @@ body {
   background: rgba(255, 255, 255, 0.185);
 }
 
+.overlay{
+
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  /* height: 100vh; */
+  color: #fff;
+  z-index: 20;
+  text-align: center;
+  padding-top: 220px;
+  padding-left: 110px;
+  /* background: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px); */
+  /* top: 600; */
+
+}
+
+.pop-up-box{
+  background: rgba(0, 0, 0, 0.5);
+  width: 50%;
+  height: 20%;
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  margin: 0 auto;
+  border-radius: 10px;
+  backdrop-filter: blur(7px);
+  position: sticky;
+  padding: 10px;
+}
+
+.machine-add-popup-btn{
+
+  /* background-color: aqua; */
+  display: inline;
+}
+
+.machine-add-popup-btn button{
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: none;
+  border-right: none;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 30px;
+  height: 40px;
+  width: 100px;
+  color: #fff;
+}
+.machine-add-popup-btn button:hover{
+  background: rgba(255, 255, 255, 0.331);
+}
 
 
 /* ############################### Machine Page ####################### */
