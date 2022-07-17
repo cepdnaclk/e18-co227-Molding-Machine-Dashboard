@@ -125,6 +125,7 @@ function AddNewMachine() {
                         </datalist>
                         
                         <br/>
+                        <br/>
 
                         <label for="Mold_Shots">Mold Shots</label><br/>
                         <InputField 
@@ -178,7 +179,7 @@ function AddNewMachine() {
                 </div>
             </Boxes>
 
-            {openModel && (<Model/>)}  
+            {openModel && (<Model closeModel={() => setopenModel(false) }/>)}  
 
         </div>
         

@@ -238,9 +238,9 @@ body {
   color: #fff;;
 }
 
-.machine-add-box:hover{
+/* .machine-add-box:hover{
   box-shadow: 0px 0px 6px #063146;
-}
+} */
 
 .machine-add-box:hover .machine-plus-icon{
   opacity: 0.5;
@@ -355,14 +355,15 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
+  min-height: 875px;
   top: 0;
   left: 0;
   /* height: 100vh; */
   color: #fff;
   z-index: 20;
   text-align: center;
-  padding-top: 220px;
-  padding-left: 110px;
+  /* padding-top: 220px;
+  padding-left: 110px; */
   /* background: rgba(255, 255, 255, 0.1);
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
@@ -374,15 +375,18 @@ body {
 .pop-up-box{
   background: rgba(0, 0, 0, 0.5);
   width: 50%;
+  min-width: 350px;
   height: 20%;
   box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.3);
   background: rgba(255, 255, 255, 0.1);
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
-  margin: 0 auto;
+  /* margin: 0 auto; */
   border-radius: 10px;
   backdrop-filter: blur(7px);
-  position: sticky;
+  position: fixed;
+  top: 40%;
+  left: 32%;
   padding: 10px;
 }
 
@@ -423,6 +427,8 @@ body {
   top: 73px;
   gap: 3%;
   grid-template-columns: 1fr;
+
+  /* grid-template-columns: repeat(auto-fill,minmax(500px,1fr)) */
 }
 
 .machine-data-table {
@@ -595,7 +601,70 @@ body {
 /* --------------------------------------- */
 
 
+.overlay-remove{
 
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  width: 100%;
+  min-width: 1300px;
+  height: 100%;
+  min-height: 1100px;
+  top: 0;
+  left: 0;
+  /* height: 100vh; */
+  color: #fff;
+  z-index: 20;
+  text-align: center;
+  /* padding-top: 220px; */
+  /* padding-left: 110px; */
+  /* background: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px); */
+  /* top: 600; */
+
+}
+
+.pop-up-box-remove{
+  background: rgba(0, 0, 0, 0.5);
+  width: 50%;
+  height: 20%;
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  /* margin: 0 auto; */
+  border-radius: 10px;
+  backdrop-filter: blur(7px);
+  position: fixed;
+  top: 40%;
+  left: 35%;
+  padding: 10px;
+}
+
+.machine-remove-popup-btn{
+
+  /* background-color: aqua; */
+  display: inline;
+}
+
+.machine-remove-popup-btn button{
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: none;
+  border-right: none;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 30px;
+  height: 40px;
+  width: 100px;
+  color: #fff;
+}
+.machine-remove-popup-btn button:hover{
+  background: rgba(255, 255, 255, 0.331);
+}
 
 
 

@@ -1,15 +1,16 @@
-import React, {useState} from 'react'
+import React from 'react'
 import Boxes from '@material-ui/core/Box';
 import {Link} from 'react-router-dom';
 
-function MachineAddModel(){
+function MachineAddModel({closeModel}){
+ 
   return (
     <div className='overlay'>
     <Boxes className='pop-up-box'>
         Machine Added <br/>
         <div className='machine-add-popup-btn'>
-        <Link to='/'><button>Add again</button></Link>
-        <Link to='/Home'><button>go back</button></Link>
+        <button onClick={closeModel}>Add again</button>
+        <Link to='/Home'><button>Go back</button></Link>
         </div>
         
     </Boxes>
