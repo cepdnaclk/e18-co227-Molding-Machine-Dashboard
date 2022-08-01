@@ -107,7 +107,7 @@ exports.delete = async (req, res) => {
             if(resp === 2){
                 res.status(400).send('Query error!');
             }else{
-                res.send(result);
+                res.status(201).send(result);
             }
 
     });
