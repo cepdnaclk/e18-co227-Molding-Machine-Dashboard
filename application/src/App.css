@@ -1026,3 +1026,25 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Logout Button in header */
+
+
+.logout-btn{
+  margin-left: 100%;
+  width: auto;
+  font-size: 14px;
+  padding: 12px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.logout-btn:hover{
+  background: rgba(255, 255, 255, 0.185);
+}

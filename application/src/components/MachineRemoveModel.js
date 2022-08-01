@@ -7,6 +7,7 @@ function MachineAddModel({removeMachine, closeModel}){
   return (
     <div className='overlay-remove'>
     <Boxes className='pop-up-box-remove'>
+        <br />
         Are you sure you want to delete this machine?<br/>
         <div className='machine-remove-popup-btn'>
             <button onClick={removeMachine}>Yes</button>
