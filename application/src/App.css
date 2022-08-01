@@ -14,6 +14,7 @@ body {
   background-image: linear-gradient(#030927, #12195f);
   text-align: center;
   justify-content: center;
+  min-width: 1200px;
   
 }
 
@@ -427,6 +428,7 @@ body {
   top: 73px;
   gap: 3%;
   grid-template-columns: 1fr;
+  /* min-width: 1500px; */
 
   /* grid-template-columns: repeat(auto-fill,minmax(500px,1fr)) */
 }
@@ -545,7 +547,7 @@ body {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   width: 98.7%;
-  height: 250px;
+  height: 820px;
   border-radius: 10px;
   transition: .4s;
   box-shadow: 0px 0px 4px #063146;
@@ -554,12 +556,60 @@ body {
   text-align: left;
 }
 
+.machine-dbox3{
+  /* background-color: #28617a; */
+  background: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  text-align: left;
+  width: 300px;
+  height: 20px;
+  padding: 10px 5px;
+  font-weight: normal;
+  font-size: 1.2rem;
+  margin: 10px;
+  /* margin-bottom: 30px; */
+  
+}
+
+
+.machine-dbox3-temp{
+  /* background-color: #28617a; */
+  /* background: rgba(179, 16, 16, 0.349); */
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  text-align: center;
+  width: 55px;
+  height: 40px;
+  padding: 10px 5px;
+  font-weight: normal;
+  font-size: 1rem;
+  margin: 10px;
+  margin-right: 2px;
+  background-image: linear-gradient(rgba(179, 16, 16, 0.2), rgba(235, 157, 13, 0.2));
+  /* margin-bottom: 30px; */
+  
+}
+
+.temperature{
+  display: flex;
+}
+
+.machine-databox3-details{
+  padding-top: 20px;
+  /* line-height: 50px; */
+}
+
 /* same as mold header */
 .machine-databox3-header{
   padding: 10px 10px;
+  /* padding-top: 20px; */
   font-weight: bold;
   font-size: 1.5rem;
-  text-shadow: 2px 2px 4px #063146;
+  /* text-shadow: 2px 2px 4px #063146; */
+  /* background-color: aqua; */
 }
 
 .machine-box3-icon{
@@ -567,6 +617,60 @@ body {
   height: 25px;
   /* filter: drop-shadow(1px 2px 2px #063146); */
 }
+
+.machine-databox3-image{
+  width: 400px;
+  height: 200px;
+  opacity: 0.8;
+}
+
+.image-div{
+  text-align: center;
+  /* background-color: aqua; */
+}
+
+.injection-piston{
+  margin: 20px;
+  margin-left: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  height: 300px;
+  width: 50%;
+  min-width: 500px;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+.injection-position-header{
+  /* background-color: aqua; */
+  padding-top: 5px;
+  padding-left: 10px;
+  font-size: 1.2rem;
+}
+
+.injection-dbox3{
+  background: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  text-align: left;
+  width: 300px;
+  height: 20px;
+  padding: 10px 5px;
+  font-weight: normal;
+  font-size: 1.2rem;
+  margin: 10px;
+}
+
+.injection-position-table{
+  padding: 20px;
+}
+
+.injection-position-table td{
+  height: 60px;
+}
+
 /* --------------------------------------- */
 
 
