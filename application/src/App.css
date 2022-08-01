@@ -775,6 +775,15 @@ body {
   font-size: 1.2rem;
 }
 
+.mold-data-container{
+  padding-left: 270px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  top: 73px;
+  gap: 3%;
+}
+
 
 /* ----------------------scroll styles-------------------------- */
 
@@ -989,5 +998,31 @@ body {
 
 .pdf-btn{
   padding:10px;
-  margin-left:85px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+/* ------------------------------------------------------------------- */
+
+
+/* ---------------------------- modelReport ---------------------------------- */
+
+.moldTable th{
+  border: 1px solid #97b1bd;
+  padding: 8px;
+  background-color: #97b1bd;
+}
+
+.moldTable td{
+  border: 1px solid #97b1bd;
+  padding: 8px;
+}
+
+.moldTable tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+.moldTable{
+  margin-left: auto;
+  margin-right: auto;
 }

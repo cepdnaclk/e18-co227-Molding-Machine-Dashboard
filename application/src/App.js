@@ -9,6 +9,7 @@ import Login from './pages/Login';
 import MachineData from './pages/MachineData';
 import AddMachine from './pages/AddMachine';
 import Report from './pages/PDF';
+import MoldReport from './pages/MoldPDF';
 import RequireAuth from './auth/RequireAuth';
 import {Routes, Route} from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
@@ -29,6 +30,7 @@ function App() {
         <Route path='/Data' element={<Data />} />
         <Route path='/AddMachine' element={<AddMachine />} />
         <Route path='/Report' element={<Report/>}/>
+        <Route path='/MoldReport' element={<MoldReport/>}/>
       </Route>
       </Routes>
 
@@ -44,6 +46,9 @@ function LayoutManager(){
     return <div><LoginHeader/></div>
   }
   else if (currentPath === '/Report'){
+    return <div></div>
+  }
+  else if (currentPath === '/MoldReport'){
     return <div></div>
   }
   else{
