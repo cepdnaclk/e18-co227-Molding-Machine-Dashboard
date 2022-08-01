@@ -7,6 +7,7 @@ function MachineAddModel({closeModel}){
   return (
     <div className='overlay'>
     <Boxes className='pop-up-box'>
+        <br />
         Machine Added <br/>
         <div className='machine-add-popup-btn'>
         <button onClick={closeModel}>Add again</button>
