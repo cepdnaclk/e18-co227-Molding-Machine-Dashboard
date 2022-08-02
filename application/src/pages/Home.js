@@ -3,10 +3,10 @@ import {useEffect, useState} from 'react';
 import Boxes from '@material-ui/core/Box';
 import { BsPlusLg } from "react-icons/bs";
 import {Link} from 'react-router-dom';
-
+import LogoutPopUp from '../components/LogoutPopUp';
 
 function Homepage() {
-
+    const [openModel, setopenModel] = useState(false);
     const [machines, setMachines] = useState([])
 
     useEffect(() => {
@@ -45,6 +45,12 @@ function Homepage() {
                 </div>
             </Boxes>
             </Link>
+
+            <div className='logout-btn-div'>
+            <button className='logout-btn' onClick={() => setopenModel(true)}>Logout</button>  
+            {openModel && (<LogoutPopUp closeModel={() => setopenModel(false)} />)}
+            </div>
+
         </div>
         
     )

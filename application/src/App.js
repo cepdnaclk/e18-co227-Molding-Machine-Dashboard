@@ -10,6 +10,7 @@ import MachineData from './pages/MachineData';
 import AddMachine from './pages/AddMachine';
 import Report from './pages/PDF';
 import MoldReport from './pages/MoldPDF';
+import Company from './pages/CompanyDetails';
 import RequireAuth from './auth/RequireAuth';
 import {Routes, Route} from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
@@ -31,6 +32,7 @@ function App() {
         <Route path='/AddMachine' element={<AddMachine />} />
         <Route path='/Report' element={<Report/>}/>
         <Route path='/MoldReport' element={<MoldReport/>}/>
+        <Route path='/Company' element={<Company/>}/>
       </Route>
       </Routes>
 
