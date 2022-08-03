@@ -36,7 +36,9 @@ CREATE TABLE analysis_tool.machines(
 -- add dummy users to the employees table
 INSERT INTO analysis_tool.employees(empID, firstName, lastName, empTitle, admin)
 VALUES ('9876X', 'Jack', 'Reacher', 'Admin', 1),
-        ('1234X', 'James', 'Greer', 'Engineer', 0);
+        ('1234X', 'James', 'Greer', 'Engineer', 0),
+        ('4321X', 'Anushaga', 'pavith', 'Admin', 1),
+        ('0000X', 'Didula', 'Induwara', 'Admin', 1);
 
 -- add dummy mold data to molds
 INSERT INTO molds VALUES('m002','mon121','m_alloy','china'),
@@ -57,7 +59,3 @@ INSERT INTO machines VALUES('D01','m002',50,3,1,'2022-02-09','2022-03-19'),
 ('D08','m006',95,5,1,'2022-02-15','2022-03-25'),
 ('D09','m005',85,1,1,'2022-03-10','2022-03-31'),
 ('D10','m002',71,9,1,'2022-02-09','2022-03-19');
-
--- add username and password to password
-INSERT INTO passwords VALUES('1234X', '123');
-INSERT INTO passwords VALUES('9876X', '456');

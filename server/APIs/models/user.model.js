@@ -21,15 +21,13 @@ User.create = async (newUser) => {
             return 0;
         } else {
             // insert the new user into passwords table
-            await sql.query("INSERT INTO passwords SET ?", newUser, (err, res) => {
-                if (err) {
-                    console.log("error: ", err);
-                    return err;
-                }
+            await sql.query("INSERT INTO passwords SET ?", newUser);
+                // if (err) {
+                //     console.log("error: ", err);
+                //     return err;
+                // }
                 console.log("user added");
                 return 1;
-            }
-            );
         }
     }
     else {
