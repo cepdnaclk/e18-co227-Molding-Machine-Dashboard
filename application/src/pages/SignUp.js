@@ -166,7 +166,7 @@ const SignUp = () => {
 
             <div className='login-button-container'>
                 <button className='btn' type='button' onClick={goToLogin}>Go Back</button>
-                <button className='btn' type='submit' disabled={!validEmpId || !validPwd || !validMatch ? true : false}> Sign Up</button>
+                <button className='btn' type='submit' disabled={!validEmpId || !validPwd || !validMatch ? true : false}>Sign Up</button>
             </div>
         </form>
         </Boxes>

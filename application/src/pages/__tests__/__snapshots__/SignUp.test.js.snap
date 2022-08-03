@@ -88,7 +88,7 @@ exports[`render and test onClick event 1`] = `
             disabled=""
             type="submit"
           >
-             Sign Up
+            Sign Up
           </button>
         </div>
       </form>
