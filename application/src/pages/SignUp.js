@@ -37,15 +37,11 @@ const SignUp = () => {
 
     useEffect(() => {
         const result = EMP_REGEX.test(empID);
-        console.log(result);
-        console.log(empID);
         setValidEmpId(result);
     }, [empID])
 
     useEffect(() => {
         const result = PWD_REGEX.test(pwd);
-        console.log(result);
-        console.log(pwd);
         setValidPwd(result);
         const isMatch = (pwd === matchPwd);
         setValidMatch(isMatch); 
@@ -83,16 +79,16 @@ const SignUp = () => {
             navigate(from, { replace: true });
 
         } catch (error) {
-
+            // console.log(error?.response?.data);
             if(!error?.response) {
                 setErrMsg('No Server Response.');
             } else if(error.response?.status === 400) {
                 setErrMsg("User already exists.");
+            } else if(error.response?.status === 406) {
+                setErrMsg("Employee not Found.");
             } else {
                 setErrMsg("Unauthorized.");
             }
-            setPwd('');
-            setMatchPwd('');
             errRef.current.focus();
         }
     }
