@@ -30,7 +30,13 @@ CREATE TABLE analysis_tool.machines(
     failedShots INT NOT NULL,
     prodRate INT NOT NULL,
     prod_start_date DATE NOT NULL,
-    prod_end_date DATE NOT NULL
+    prod_end_date DATE NOT NULL,
+    Ejector_position FLOAT,
+    Cycle_time FLOAT,
+    Cooling_time FLOAT,
+    Actual_position FLOAT,
+    Actual_pressure FLOAT,
+    Actual_rot_speed FLOAT
 );
 
 -- add dummy users to the employees table
