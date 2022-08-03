@@ -57,6 +57,41 @@ exports.show = async (req, res) => {
     
 }
 
+exports.update = async (req, res) => {
+    var data = req.body;
+
+    const moldExists = await (Mold.checkMachine)(req.params.moldID);
+    
+    // if machine exists
+    if (moldExists) {
+        // console.log(req.body.failedShots);
+        // create a new user
+        const resp = Mold.update(data, function(err,result){
+            // console.log(result);
+            //console.log(err);
+
+            if(resp === 2){
+                res.status(400).send('Query error!');
+            }else{
+                res.send(result);
+            }
+
+        });
+
+        return;
+    }else{
+        // create a json response
+        res.status(404).json({
+            success: false,
+            status: 404,
+            message: "Mold does not exists"
+        });
+
+        return;
+    }
+    
+}
+
 exports.delete = async (req, res) => {
     var data =  req.params;
 
