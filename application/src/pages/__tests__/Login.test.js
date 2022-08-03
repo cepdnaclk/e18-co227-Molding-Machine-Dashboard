@@ -30,3 +30,11 @@ test("render and count buttons", async () => {
     const buttonList = await screen.findAllByRole('button');
     expect(buttonList).toHaveLength(2);
 })
+
+test("render and take snapshot", async () => {
+    const { asFragment } = render(
+        <Router>
+            <Login />
+        </Router>);
+    expect(asFragment()).toMatchSnapshot();
+})
