@@ -2,12 +2,16 @@ import React, { useRef, useState, useEffect } from "react";
 import Boxes from '@material-ui/core/Box';
 import axios from '../auth/axios';
 import { useNavigate, useLocation } from 'react-router-dom';
+import Model from '../components/RegisterModel';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const EMP_REGEX = /^[0-9][a-zA-Z0-9]{4,9}$/;
 // const PWD_REGEX =/^(?=.*[a-z])(?=*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).(3,24)$/;
 const PWD_REGEX =/^(?=.*?[0-9]).{4,24}$/;
 
 const SIGNUP_URL = '/api/users/register';
+
 
 const SignUp = () => {
     const userRef = useRef();
@@ -30,6 +34,8 @@ const SignUp = () => {
     const [matchFocus, setMatchFocus] = useState(false);
 
     const [errMsg, setErrMsg] = useState('');
+
+     const [openModel, setopenModel] = useState(false);
 
     useEffect(() => {
         userRef.current.focus();
@@ -75,8 +81,9 @@ const SignUp = () => {
             setEmpID('');
             setPwd('');
             setMatchPwd('');
-
-            navigate(from, { replace: true });
+            setopenModel(true)
+            toast('You have successfully sign up with company!')
+            // navigate(from, { replace: true });
 
         } catch (error) {
             // console.log(error?.response?.data);
@@ -166,10 +173,12 @@ const SignUp = () => {
 
             <div className='login-button-container'>
                 <button className='btn' type='button' onClick={goToLogin}>Go Back</button>
-                <button className='btn' type='submit' disabled={!validEmpId || !validPwd || !validMatch ? true : false}>Sign Up</button>
+                <button className='btn' type='submit' disabled={!validEmpId || !validPwd || !validMatch ? true : false}> Sign Up</button>
             </div>
         </form>
         </Boxes>
+        <ToastContainer/>
+        {openModel && (<Model/>)}
         </div>
     );
 
