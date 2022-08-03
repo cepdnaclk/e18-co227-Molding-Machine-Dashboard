@@ -9,6 +9,9 @@ router.get("/", moldController.all);
 // list mold details
 router.get("/:moldID", moldController.show);
 
+// Update machine details
+router.post("/:moldID", moldController.update);
+
 //Delete machine
 router.delete("/:moldID",moldController.delete);
 

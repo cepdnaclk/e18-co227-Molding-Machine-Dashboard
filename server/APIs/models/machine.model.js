@@ -10,6 +10,12 @@ const Machine = function (machine) {
     this.prodRate = machine.prodRate;
     this.prod_start_date = machine.prod_start_date;
     this.prod_end_date = machine.prod_end_date;
+    this.Ejector_position = machine.Ejector_position;
+    this.Cycle_time = machine.Cycle_time;
+    this.Cooling_time = machine.Cooling_time;
+    this.Actual_position = machine.Actual_position;
+    this.Actual_pressure = machine.Actual_pressure;
+    this.Actual_rot_speed = machine.Actual_rot_speed;
 }
 
 // check whether a machine exists in the machines table
