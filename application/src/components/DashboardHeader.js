@@ -4,7 +4,7 @@ import { useLocation } from 'react-router-dom';
 
 function DashboardHeader() {
     return (
-        <nav  className="header">
+        <nav  className="header" data-testId="dashboard-header">
             <div>
                 <ChangePageName />
             </div>

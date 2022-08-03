@@ -36,7 +36,7 @@ function Homepage() {
     // 'state' in Link tag sends machine ID to the page that linked
 
     return (
-        <div className="machine-container"> 
+        <div className="machine-container" data-testId="add-machine-box-id"> 
             {machineList} 
             <Link to='/AddMachine'>
             <Boxes className='machine-add-box'>
