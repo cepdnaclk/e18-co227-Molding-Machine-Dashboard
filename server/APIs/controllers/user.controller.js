@@ -32,7 +32,7 @@ exports.register = async (req, res) => {
         res.status(400).send('User already exists');
     }
     else if (response === 2) {
-        res.status(400).send('Forbidden');
+        res.status(406).send('User not found.');
     }
     else {
         res.status(201).send('User added');
