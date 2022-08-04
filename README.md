@@ -19,7 +19,8 @@ title: Molding Machine Dashboard
 2. [Problem Overview](#problem-overview)
 3. [Existing System](#existing-system)
 4. [Proposed Solution](#proposed-solution)
-5. [Links](#links)
+5. [User Interfaces](#user-interfaces)
+7. [Links](#links)
 
 ---
 ## Introduction
@@ -53,6 +54,21 @@ The Dashboard will have several key interfaces; an overview page of all the mach
 
 ### Technology Stack
 <p align="center"> <img src = "docs/images/tech_stack1.png" width="580"> </p>
+
+### User Interfaces
+<p align="center"> 
+  <img src = "docs/images/pg-1.jpg" width="500"> 
+  <img src = "docs/images/pg-2.jpg" width="500"> 
+</p>
+
+<p align="center"> 
+  <img src = "docs/images/pg-3.jpg" width="500"> 
+  <img src = "docs/images/pg-4.jpg" width="500"> 
+</p>
+
+<p align="center"> 
+  <img src = "docs/images/pg-5.jpg" width="500"> 
+</p>
 
 ---
 
