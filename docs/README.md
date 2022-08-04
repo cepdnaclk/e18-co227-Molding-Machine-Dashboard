@@ -19,7 +19,8 @@ title: Molding Machine Dashboard
 2. [Problem Overview](#problem-overview)
 3. [Existing System](#existing-system)
 4. [Proposed Solution](#proposed-solution)
-5. [Links](#links)
+5. [User Interfaces](#user-interfaces)
+6. [Links](#links)
 
 ---
 ## Introduction
